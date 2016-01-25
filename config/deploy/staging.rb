@@ -1,3 +1,4 @@
+set :deploy_to, '/mnt/hosting/sites/portfolio/staging'
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.

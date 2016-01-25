@@ -7,7 +7,6 @@ set :deploy_to, '/mnt/hosting/sites/portfolio/production'
 server 'ec2-54-93-115-137.eu-central-1.compute.amazonaws.com', user: 'ubuntu', roles: %w{app db web}
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
-
 set :branch, 'master'
 
 # role-based syntax

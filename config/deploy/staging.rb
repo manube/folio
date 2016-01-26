@@ -32,13 +32,13 @@ set :branch, 'staging'
 # http://capistranorb.com/documentation/getting-started/configuration/
 # Feel free to add new variables to customise your setup.
 
-set :ssh_options, {
-   user: 'ubuntu', # overrides user setting above
-   forward_agent: true,
-   keys: "~/Google Drive/AWS/aws_matteo_keypair.pem",
-   forward_agent: false,
-   auth_methods: %w(publickey)
-}
+#set :ssh_options, {
+#   user: 'ubuntu', # overrides user setting above
+#   forward_agent: true,
+#   keys: "~/Google Drive/AWS/aws_matteo_keypair.pem",
+#   forward_agent: false,
+#   auth_methods: %w(publickey)
+#}
 
 # Custom SSH Options
 # ==================

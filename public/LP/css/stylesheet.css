@@ -4,7 +4,6 @@ html, body, ul, li, h1, h2, p {
   padding: 0;
 }
 
-
 /* Declares font family, text colour and adds a subtle pattern to the background */
 body {
   font-family: 'Quicksand', sans-serif;
@@ -19,14 +18,14 @@ body {
   position: absolute;
   top:50%;
   left:50%;
-  width:400px;  
-  margin: -220px 0 0 -200px;  
+  width:400px;
+  margin: -220px 0 0 -200px;
   text-align: center;
 }
 
 
 /* Makes image a circle and sizes it to 40% of the outside container */
-.container img { 
+.container img {
   max-width: 40%;
   border-radius: 50%;
 }
@@ -92,10 +91,3 @@ p {
   color: #999;
   background-color: #eee;
 }
-
-
-
-
-
-
-

@@ -8,12 +8,12 @@ html, body, ul, li, h1, h2, p {
 body {
   font-family: 'Quicksand', sans-serif;
   color: #2c3e50;
-  background-image: url('img/texture.png');
+  background-color:#e890bb;
+  background-image: url('img/.jpg');
   -webkit-font-smoothing: antialiased;
 }
 
-
-/* Make container centered in page and center text inside <div> */
+/* Make container centered in page and center text inside */
 .container {
   position: absolute;
   top:50%;
@@ -23,22 +23,13 @@ body {
   text-align: center;
 }
 
-
-/* Makes image a circle and sizes it to 40% of the outside container */
-.container img {
-  max-width: 40%;
-  border-radius: 50%;
-}
-
-
 /* Clears bullet points and places <li> items next to each other instead of stacked on top and changes font */
 li {
   display: inline;
   list-style: none;
   padding: 0 4px;
-  font-family: 'Pacifico', monospace;
+  /*font-family: 'Pacifico', monospace;*/
 }
-
 
 /* Remove default hyperlink styling, add our own colours and change font-size*/
 a, a:visited {
@@ -63,8 +54,8 @@ h1 {
 }
 
 h2 {
-  font-size: 22px;
-  color: #67809F;
+  font-size: 26px;
+  color: #c6ccd4;
 }
 
 
@@ -83,11 +74,202 @@ p {
 }
 
 .available {
-  color: #fff;
-  background-color: #2ecc71;
+  color: #ea5557;
+  background-color: #ffffff;
 }
 
 .unavailable {
   color: #999;
   background-color: #eee;
 }
+
+.contact {
+  text-align: center;
+  color: #fff;
+  background-color: #ff794a;
+}
+.contact .contact-icon {
+  margin-bottom: 0.9375rem;
+}
+.contact a {
+  padding-bottom: 0.125rem;
+  color: inherit;
+  border-bottom: 1px dotted #fff;
+}
+.contact a:hover {
+  border-bottom-style: solid;
+}
+/* Style our logo effet*/
+
+.maven_b {
+	font-family:"maven_b"
+}
+
+.dotprofile {
+
+  width: 100px;
+  height: 100px;
+	border-radius: 50px;
+  margin:10px auto 20px;
+  line-height: 100px;
+  cursor: pointer;
+  z-index: 10000;
+  -webkit-transition: all .55s ease;
+	   -moz-transition: all .55s ease;
+	    -ms-transition: all .55s ease;
+	     -o-transition: all .55s ease;
+	        transition: all .55s ease;
+	top: 10px;
+}
+
+.dotprofile img {
+
+  width: 98%;
+  height: 98%;
+}
+
+.dotprofile.active
+{
+	opacity: 1;
+}
+.dotprofile:hover
+{
+  opacity: 100;
+  background-color: #ee758e;
+
+}
+
+/* Label Styles */
+label {
+  color: #4d4d4d;
+  cursor: pointer;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 0;
+  /* Styles for required inputs */
+}
+label.right {
+  float: none !important;
+  text-align: right;
+}
+label.inline {
+  margin: 0 0 1rem 0;
+  padding: 0.5rem 0;
+}
+label small {
+  text-transform: capitalize;
+  color: #676767;
+}
+
+/* Attach elements to the beginning or end of an input */
+.prefix,
+.postfix {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  font-size: 0.875rem;
+  height: 2.4375rem;
+  line-height: 2.4375rem;
+  overflow: visible;
+  padding-bottom: 0;
+  padding-top: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+}
+
+/* Adjust padding, alignment and radius if pre/post element is a button */
+.postfix.button {
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  text-align: center;
+}
+
+.prefix.button {
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  text-align: center;
+}
+
+.prefix.button.radius {
+  border-radius: 0;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.postfix.button.radius {
+  border-radius: 0;
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.prefix.button.round {
+  border-radius: 0;
+  -webkit-border-bottom-left-radius: 1000px;
+  -webkit-border-top-left-radius: 1000px;
+  border-bottom-left-radius: 1000px;
+  border-top-left-radius: 1000px;
+}
+
+.postfix.button.round {
+  border-radius: 0;
+  -webkit-border-bottom-right-radius: 1000px;
+  -webkit-border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  border-top-right-radius: 1000px;
+}
+/* SHARE CONTENT */
+
+.container_share
+{
+	position: absolute;
+	top: 27px;
+	right: 41px;
+	z-index: 10;
+}
+.share
+{
+	width: 55px;
+	height: 55px;
+	border-radius: 100%;
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+
+	-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
+}
+.share svg
+{
+	height: 14px;
+	fill: #FFF;
+	position:absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+}
+.share:hover
+{
+	border: 2px solid white;
+}
+
+/* END SHARE CONTENT */

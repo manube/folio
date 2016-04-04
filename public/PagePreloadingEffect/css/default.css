@@ -32,10 +32,10 @@ section {
 }
 /* Style our 'available' and 'unavailable' classes */
 .available, .unavailable {
-  width: 35%;
-  margin:8px auto 8px;
+  width: 40%;
+  margin:10px auto 10px;
   border-radius: 3px;
-  padding: 10px 0;
+  padding: 14px 0;
 }
 
 .available {

@@ -27,12 +27,12 @@ a:hover, a:focus {
 }
 
 section {
-	padding: 1em;
+	padding: 0em;
 	text-align: center;
 }
 /* Style our 'available' and 'unavailable' classes */
 .available, .unavailable {
-  width: 30%;
+  width: 60%;
   margin:10px auto 10px;
   border-radius: 3px;
   padding: 14px 0;

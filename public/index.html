@@ -1,32 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>YOUR SITE TITLE HERE</title>
-  <link rel="stylesheet" type="text/CSS" href="stylesheet.css">
+  <title>manube</title>
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <meta name="description" content="My First Website">
-  <meta name="keywords" content="Portfolio,Web Design,UX Design,UI Design">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="icon" type="image/png" href="favicon.png">
+  <meta name="description" content="My portfolio">
+  <meta name="keywords" content="Portfolio,Web Design,UX Design,UI Design, Art Diretion, Concept">
   <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+  <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
   <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700|Pacifico' rel='stylesheet' type='text/css'>
-
-
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,900,700,700italic,400italic,300italic,300,100italic,100,900italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Dosis:400,500,700,800,600,300,200' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700|Pacifico' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
   <div class="container">
-    <img src="img/" alt="" />
+    <img src="img/logo-manube.svg" alt="logo-manube" />
+
     <h1>Hello everyone!</h1>
-    <h2></h2>
+    <h2>I'm available for hire</h2>
+    <a class="large radius button" href="#contact">Let's work together</a>
+    <div class="available">LET'S WORK TOGETHER</div>
 
-    <p></p>
 
-    <div class="available">Available for hire!</div>
-      <ul>
-        <li><a href="https://twitter.com/manubernardelli" title="Follow me on Twitter" target="_blank">Twitter</a></li>
-      </ul>
+    <section id="contact" class="section contact has-colored-bg">
+      <div class="row">
+        <div class="medium-10 medium-centered columns">
+          <h3>Let's Work Together!</h3>
+          <p class="lead">Have a project you want us to discuss about? Feel free to get in touch:</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="medium-4 medium-offset-2 columns space-up">
+          <span class="fa fa-phone fa-3x contact-icon"></span>
+          <h5>Give me a call</h5>
+          <p><a href="#">(555) 555-5555</a></p>
+        </div>
+
+        <div class="medium-4 columns end space-up">
+          <span class="fa fa-envelope-o fa-3x contact-icon"></span>
+          <h5>Email me</h5>
+          <p><a href="#">hello.manube@gmail.com</a></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="medium-8 medium-centered columns space-up">
+          <form method="post" action="send-message.php">
+            <div class="row">
+              <div class="medium-6 columns">
+                <input type="text" name="name" placeholder="Enter your name" required>
+              </div>
+              <div class="medium-6 columns">
+                <input type="email" name="email" placeholder="Enter your email" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-12 columns">
+                <textarea rows="8" name="message" placeholder="Tell me about your project..." required></textarea>
+
+                <button class="radius expand button" type="submit"><span class="fa fa-send-o">&nbsp;</span> Send the message now</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
 
   </div>
 

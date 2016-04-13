@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksans:300,400,700);
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+/* Demo colors
+body {
+	background: #333;
+	color: #fff;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Quicksans', Arial, sans-serif;
+}
+*/
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #cde1d5;
+  background-color:#e890bb;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+	outline: none;
+}
+
+/* Demo colors */
+.demo-1 { background: #ee758e; }
+.demo-1 a { color: #be4856; }
+
+a:hover, a:focus {
+	color: #fff;
+}
+
+section {
+	padding: 0em;
+	text-align: center;
+}
+/* Style our 'available' and 'unavailable' classes */
+.available, .unavailable {
+  width: 40%;
+  margin:10px auto 10px;
+  border-radius: 3px;
+  padding: 14px 0;
+}
+
+.available {
+  color: #ea5557;
+  background-color: #ffffff;
+}
+
+.unavailable {
+  color: #999;
+  background-color: #eee;
+}
+
+.footer {
+	padding: 1em;
+	text-align: center;
+}

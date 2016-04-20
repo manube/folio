@@ -13,7 +13,7 @@ General Styles
 
 body {
 	background: #fff;
-	font: 400 14px/1.8 "Open Sans", sans-serif;
+  font: 400 14px/1.8 "Open Sans", sans-serif;
 	color: #777;
 	overflow-x: hidden;
 	-ms-overflow-style: scrollbar;
@@ -27,6 +27,16 @@ img {
 iframe {
 	border: 0;
 }
+
+.hello{
+	font-family: 'Quicksand', sans-serif;
+	font: 700 14px/1.8;
+	font-weight: bold;
+  color: #be4856;
+	font-size: 4vw;
+  -webkit-font-smoothing: antialiased;
+}
+
 
 /* ------------------------------------------------------------------
 Selection
@@ -132,7 +142,7 @@ a:hover, a:focus {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	line-height: 1.4;
 	font-weight: 400;
-	color: #676464;
+	color: ##f7f7f7;
 }
 
 h1, .h1 {
@@ -157,6 +167,7 @@ h5, .h5 {
 
 h6, .h6 {
 	font-size: 12px;
+	color: #fff;
 }
 
 p, ol, ul, blockquote {
@@ -1325,6 +1336,7 @@ Hero
 
 /* Hero caption sizes*/
 
+.mh-hello,
 .mh-line-size-1,
 .mh-line-size-2,
 .mh-line-size-3,
@@ -1335,6 +1347,14 @@ Hero
 	margin: 0;
 }
 
+.mh-hello {
+	font-size: 80px;
+	color: #be4856;
+}
+.mh-skill {
+	font-size: 24px;
+	color: #ffffff;
+}
 .mh-line-size-1 {
 	letter-spacing: 50px;
 	font-size: 30px;
@@ -1355,8 +1375,8 @@ Hero
 
 .mh-line-size-4 {
 	letter-spacing: 10px;
-	font-size: 16px;
-	opacity: 0.6;
+	font-size: 18px;
+
 }
 
 .mh-line-size-5 {
@@ -2075,6 +2095,10 @@ Responsive Media Querries
 
 	/* Hero captions */
 
+	.mh-hello {
+		letter-spacing: 2px;
+		font-size: 50px;
+	}
 	.mh-line-size-1 {
 		letter-spacing: 40px;
 		font-size: 26px;
@@ -2135,7 +2159,10 @@ Responsive Media Querries
 @media (max-width: 767px) {
 
 	/* Hero captions */
-
+	.mh-hello {
+		letter-spacing: 2px;
+		font-size: 38px;
+	}
 	.mh-line-size-1 {
 		letter-spacing: 24px;
 		font-size: 26px;
@@ -2199,6 +2226,11 @@ Responsive Media Querries
 @media (max-width: 500px) {
 
 	/* Hero captions */
+
+	.mh-hello {
+		letter-spacing: 4px;
+		font-size: 30px;
+	}
 
 	.mh-line-size-1 {
 		letter-spacing: 12px;

@@ -502,14 +502,16 @@
 		});
 
 		/* ---------------------------------------------- /*
-		 * Scroll top
+		 * Scroll top+logobrand
 		/* ---------------------------------------------- */
 
 		$(window).scroll(function() {
 			if ($(this).scrollTop() > 100) {
 				$('.scroll-up').fadeIn();
+				$('.navbar-brand').fadeIn();
 			} else {
 				$('.scroll-up').fadeOut();
+				$('.navbar-brand').fadeOut();
 			}
 		});
 

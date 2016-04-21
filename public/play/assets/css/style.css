@@ -28,15 +28,12 @@ iframe {
 	border: 0;
 }
 
-.hello{
-	font-family: 'Quicksand', sans-serif;
-	font: 700 14px/1.8;
+.hello {
 	font-weight: bold;
   color: #be4856;
 	font-size: 4vw;
   -webkit-font-smoothing: antialiased;
 }
-
 
 /* ------------------------------------------------------------------
 Selection
@@ -58,7 +55,7 @@ Selection
 }
 
 /* ------------------------------------------------------------------
-Transition elsements
+Transition elements
 ------------------------------------------------------------------- */
 
 a,
@@ -634,55 +631,7 @@ Pagination
 	color: #111;
 }
 
-/* ------------------------------------------------------------------
-Social links
-------------------------------------------------------------------- */
 
-.social-text-links,
-.social-icon-links {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-.socicon-round > li > a {
-	-webkit-border-radius: 2px;
-	   -moz-border-radius: 2px;
-	     -o-border-radius: 2px;
-	        border-radius: 2px;
-}
-
-.socicon-circle > li > a {
-	-webkit-border-radius: 100%;
-	   -moz-border-radius: 100%;
-	     -o-border-radius: 100%;
-	        border-radius: 100%;
-}
-
-.social-text-links > li {
-	display: inline-block;
-	margin: 0 10px 20px;
-}
-
-.social-icon-links > li {
-	display: inline-block;
-	margin: 0 5px 10px 0;
-}
-
-.social-icon-links > li > a {
-	display: inline-block;
-	background: #f7f7f7;
-	height: 36px;
-	width: 36px;
-	text-align: center;
-	line-height: 36px;
-	font-size: 14px;
-	color: #111;
-}
-
-.social-icon-links > li > a:hover {
-	background: #f0f0f0;
-}
 
 /* ------------------------------------------------------------------
 Content box
@@ -777,114 +726,8 @@ Counters
 	font-size: 20px;
 }
 
-/* ------------------------------------------------------------------
-Team
-------------------------------------------------------------------- */
 
-.team-image {
-	border-bottom: 1px solid #eee;
-	position: relative;
-	overflow: hidden;
-}
 
-.team-image > img {
-	width: 100%;
-	-webkit-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-	   -moz-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-	     -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-	        transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-}
-
-.team-detail {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	opacity: 0;
-	-webkit-transform: translateY(50%);
-	   -moz-transform: translateY(50%);
-	        transform: translateY(50%);
-	-webkit-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-	   -moz-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-	     -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-	        transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-}
-
-.team-item:hover .team-detail {
-	opacity: 1;
-	-webkit-transform: translateY(0%);
-	   -moz-transform: translateY(0%);
-	        transform: translateY(0%);
-}
-
-.team-item:hover .team-image > img {
-	opacity: 0.5;
-}
-
-.team-descr {
-	text-align: center;
-	padding-top: 15px;
-}
-
-.team-name {
-	letter-spacing: 6px;
-	margin: 0 0 10px;
-}
-
-.team-role {
-	font-size: 12px;
-}
-
-/* ------------------------------------------------------------------
-Client logos
-------------------------------------------------------------------- */
-
-.client-item {
-	position: relative;
-	border-top: 1px solid #eee;
-	border-right: 1px solid #eee;
-	padding: 0;
-	text-align: center;
-	-webkit-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-	   -moz-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-	     -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-	        transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-}
-
-.client-item a {
-	display: block;
-	width: 100%;
-	padding: 50px 15px;
-	opacity: 0.9;
-}
-
-.client-item a:hover {
-	background-color: rgba(0, 0, 0, 0.05);
-	opacity: 1;
-}
-
-.client-item:before {
-	position: absolute;
-	border-left: 1px solid #eee;
-	height: 100%;
-	content: "";
-	top: 0;
-	left: -1px;
-}
-
-.client-item:after {
-	position: absolute;
-	border-bottom: 1px solid #eee;
-	width: 100%;
-	content: "";
-	bottom: -1px;
-	left: 0;
-}
-
-.quote-author {
-	font-size: 12px;
-	opacity: 0.75;
-}
 
 /* ------------------------------------------------------------------
 Owl sliders
@@ -1103,7 +946,10 @@ Navigation
 	font-size: 20px;
 	color: #fff;
 }
-
+ .navbar-brand {
+	background-color: #df0000;
+  display: none;
+}
 .navbar-custom a {
 	color: #fff;
 }
@@ -1143,6 +989,7 @@ Navigation
 }
 
 /* Navbar transparent */
+
 
 .navbar-transparent {
 	background: transparent;
@@ -1941,7 +1788,7 @@ Preloader
 ------------------------------------------------------------------- */
 
 .page-loader {
-	background: #fff;
+	background: #ffffff;
 	position: fixed;
 	top: 0;
 	bottom: 0;
@@ -1951,7 +1798,7 @@ Preloader
 }
 
 .loader {
-	background: #ddd;
+	background: #be4856;
 	position: absolute;
 	display: inline-block;
 	height: 40px;
@@ -2274,6 +2121,7 @@ Responsive Media Querries
 	}
 
 }
+
 
 /* -------------------------------------------------------------------
 Multi-columns-row

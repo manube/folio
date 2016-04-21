@@ -1203,15 +1203,17 @@ Hero
 	color: #be4856;
 }
 .mh-about {
-text-align: center;
-	font-size: 40px;
+  text-align: center;
+	font-weight: bold;
+	font-size: 28px;
+	letter-spacing: 1px;
 	color: #be4856;
 }
 .mh-about-text {
   text-align: center;
 	font-size: 18px;
 	letter-spacing: 1px;
-	color: rgba(255, 255, 255, 0.55);
+	color: rgba(255, 255, 255, 0.6);
 }
 .mh-skill {
 	font-size: 24px;

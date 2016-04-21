@@ -134,7 +134,7 @@ a:hover, a:focus {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	line-height: 1.4;
 	font-weight: 400;
-	color: #f7f7f7;
+	color: #777;
 }
 
 h1, .h1 {
@@ -952,6 +952,10 @@ Navigation
 	background-color: #;
   display: none;
 }
+.navbar-brand-page {
+ background-color: #;
+ display: block;
+}
 .navbar-custom a {
 	color: #fff;
 }
@@ -1159,6 +1163,16 @@ Navigation
 Hero
 ------------------------------------------------------------------- */
 
+.module-hero-video {
+	position: relative;
+	background-color: #3e3a3a;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
 .module-hero {
 	position: relative;
 	background-repeat: no-repeat;
@@ -1265,6 +1279,11 @@ Modules
 	width: 100%;
 }
 
+.myplayer {
+		width: 70%;
+		margin: 0 200px 20px 200px;
+		background-color: #aaa;
+}
 .module,
 .module-small {
 	padding: 40px 0;
@@ -2045,7 +2064,7 @@ Responsive Media Querries
 
 	.mh-line-size-4 {
 		letter-spacing: 4px;
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.mh-line-size-5 {
@@ -2121,7 +2140,7 @@ Responsive Media Querries
 
 	.mh-line-size-4 {
 		letter-spacing: 4px;
-		font-size: 12px;
+		font-size: 14px;
 	}
 
 	.mh-line-size-5 {
@@ -2206,4 +2225,10 @@ Multi-columns-row
 	.multi-columns-row .col-lg-2:nth-child(6n + 7) { clear: left; }
 	.multi-columns-row .col-lg-1:nth-child(12n + 13) { clear: left; }
 
+}
+.m-l-15{
+	margin-left: 15px;
+}
+.m-t-3{
+	margin-top: 3px;
 }

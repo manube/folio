@@ -12,6 +12,9 @@
 	line-height: 0;
 	height: 0;
 }
+.owl-item {
+		border: 1px solid #d4d3d3;
+}
 /* display none until init */
 .owl-carousel{
 	display: none;
@@ -19,6 +22,7 @@
 	width: 100%;
 	-ms-touch-action: pan-y;
 }
+
 .owl-carousel .owl-wrapper{
 	display: none;
 	position: relative;

@@ -1004,7 +1004,7 @@ Navigation
 .navbar-transparent {
 	background: transparent;
 	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-bottom: 20px;
 }
 
 .navbar-transparent a,
@@ -1060,7 +1060,7 @@ Navigation
 }
 
 .navbar-light .show-overlay .icon-bar {
-	background: #111;
+	background: #be4856;
 }
 
 .navbar-light .show-overlay:hover .icon-bar {
@@ -1965,6 +1965,7 @@ Reset bootstrap navigation styles for small screens
 
 .navbar-custom .navbar-nav {
 	margin: 0 -15px;
+	background: rgba(250, 250, 250, 0.1)
 }
 
 .navbar-right + .extra-navbar {
